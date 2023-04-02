@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    color: white;
+  }
+  h1{
+    position: absolute;
+    top: 50px;
+    color: rgb(206, 33, 33);
+    font-size: 50px;
+    padding: 25px;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .container {
+    width: 450px;
+    background-color: rgb(49, 153, 163);
+    padding: 70px 40px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cf {
+    width: 45%;
+  }
+  
+  input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+    color:black
+  }
+  
+  input:focus {
+    border-color: #26c99b;
+  }
